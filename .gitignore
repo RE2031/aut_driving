@@ -52,3 +52,6 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# slam_toolbox vendors karto_sdk under lib/; the generic lib/ rule above would drop it
+!/race_stack/slam_toolbox/lib/
